@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Agenda de clientes</title>
+</head>
+<body>
+    <header>
+        <h1>Agenda de clientes</h1>
+    </header>
+    <main>
+        <h2>Minha agenda de clientes</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>CPF</th>
+                    <th>Número</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!--Aqui vou preencher os dados-->
+            </tbody>
+        </table>
+        <div class="separator"></div>
+        <h2>Adicionar cliente</h2>
+        <form id="cliente-form">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" class="input" required>
+            <label for="cpf">CPF:</label>
+            <input type="text" id="cpf" name="cpf" class="input" required>
+            <label for="numero">Número:</label>
+            <input type="text" id="numero" name="numero" class="input" required>
+            <button type="submit" class="button">Adicionar cliente</button>
+        </form>
+    </main>
+    <script src="script.js"></script>
+    
+</body>
+</html>
